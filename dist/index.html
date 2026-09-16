@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf9">
+  <title>WorldDreamer-V5-Lite — World Action Model</title>
+  <meta name="description" content="WorldDreamer-V5-Lite: The world’s first open‑source unified World‑Action Model (WAM) for multi‑robot collaborative control. Explore collaborative manipulation in RoboFactory simulation and on real robots.">
+  <meta property="og:title" content="WorldDreamer-V5-Lite">
+  <meta property="og:description" content="The world’s first open‑source unified World‑Action Model (WAM) for multi‑robot collaborative control. Collaborative manipulation in simulation and on real robots.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="./assets/worldagents-favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/content.js" defer></script>
+  <script src="./assets/i18n.js" defer></script>
+  <script src="./assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="World Agents home" data-i18n-aria="home"><img class="company-logo" src="./assets/worldagents-logo.png" width="566" height="376" alt="World Agents"></a>
+    <nav aria-label="Page navigation" data-i18n-aria="navigation">
+      <a href="#simulation" data-i18n="simulation">Simulation</a><a href="#real-world" data-i18n="realWorld">Real world</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Site language" data-i18n-aria="language">
+      <button type="button" data-language="en" aria-pressed="true" aria-label="English" lang="en">EN</button><span aria-hidden="true">/</span><button type="button" data-language="zh" aria-pressed="false" aria-label="简体中文" lang="zh-CN">CN</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="project-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <h1 id="project-title">WorldDreamer-<wbr><span>V5-Lite<span class="title-spark" aria-hidden="true">✳</span></span></h1>
+        <p class="hero-subtitle" data-i18n="tagline">The world’s first open‑source unified World‑Action Model (WAM) for multi‑robot collaborative control.</p>
+        <div class="resource-links" id="resources" aria-label="Project resources" data-i18n-aria="resources">
+          <button class="resource" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M8 13h8M8 17h5"/></svg><span data-i18n="report">Tech Report</span></button>
+          <button class="resource" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18"/></svg><span data-i18n="code">Code</span></button>
+          <button class="resource" type="button"><span class="hf-icon" aria-hidden="true">🤗</span><span>Hugging Face</span></button>
+        </div>
+      </div>
+      <a class="hero-explore" href="#simulation"><span data-i18n="explore">Explore the demonstrations</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a>
+    </section>
+
+    <section class="demo-section section" id="simulation" aria-labelledby="simulation-title">
+      <div class="section-heading content-width">
+        <div><h2 id="simulation-title"><span data-i18n="simulationTitle">From intent to action</span><span class="accent">.</span></h2><p class="section-description"><span data-i18n="simulationIntro">Multi-Robot manipulation across collaborative tasks in</span> <a href="https://iranqin.github.io/robofactory/" target="_blank" rel="noopener noreferrer">RoboFactory</a><span data-i18n="sentenceEnd">.</span></p></div>
+        <div class="section-tools"><button class="motion-toggle" data-motion-for="simulation" aria-pressed="false" aria-label="Pause simulation carousel scrolling"><span class="pause-icon" aria-hidden="true"></span><span class="motion-label">Pause scroll</span></button></div>
+      </div>
+      <div class="marquee" data-marquee="simulation" aria-label="Simulation demonstrations; hover to pause scrolling" data-i18n-aria="simulationRegion">
+        <div class="marquee-viewport" tabindex="0" role="region" aria-label="Simulation carousel; scroll left or right" data-i18n-aria="simulationCarousel"><div class="marquee-track" id="simulation-track"></div></div>
+      </div>
+    </section>
+
+    <section class="demo-section section real-section" id="real-world" aria-labelledby="real-title">
+      <div class="section-heading content-width">
+        <div><h2 id="real-title"><span data-i18n="realTitle">Into the real world</span><span class="accent">.</span></h2><p class="section-description" data-i18n="realIntro">Collaborative manipulation on real robots, from coordinated placement to object retrieval and handover.</p></div>
+        <div class="section-tools"><button class="motion-toggle" data-motion-for="real-world" aria-pressed="false" aria-label="Pause real-world carousel scrolling"><span class="pause-icon" aria-hidden="true"></span><span class="motion-label">Pause scroll</span></button></div>
+      </div>
+      <div class="marquee" data-marquee="real-world" aria-label="Real-world demonstrations" data-i18n-aria="realRegion">
+        <div class="marquee-viewport" tabindex="0" role="region" aria-label="Real-world carousel; scroll left or right" data-i18n-aria="realCarousel"><div class="marquee-track" id="real-world-track"></div></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer content-width"><a class="footer-brand" href="#top">WorldDreamer-<span>V5-Lite</span></a><p data-i18n="footer">Multi-agent control. More to come.</p><a href="#top" class="back-to-top"><span data-i18n="backToTop">Back to top</span> <span aria-hidden="true">↑</span></a></footer>
+  <dialog class="video-dialog" id="video-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><p class="section-kicker" data-i18n="allCameras">ALL CAMERA VIEWS</p><h2 id="dialog-title" data-i18n="taskDemo">Task demonstration</h2></div><button class="dialog-close" aria-label="Close all camera views" data-i18n-aria="closeDialog">×</button></div><video id="dialog-video" controls muted loop playsinline preload="none"></video><p class="dialog-note" data-i18n="synchronized">Complete, synchronized camera views</p></dialog>
+  <noscript><p class="noscript-message">Enable JavaScript to view the video carousels, or <a href="./assets/videos/take-photo.mp4">watch the Take Photo demonstration</a>.</p></noscript>
+</body>
+</html>
